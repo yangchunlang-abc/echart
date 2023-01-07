@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>echart可视化大屏项目</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <!-- 头部的盒子 -->
+  <header>
+    <h1>数据可视化-Echart</h1>
+    <!-- 展示时间 -->
+    <div class="showTime"></div>
+  </header>
+  <!-- 主体盒子 -->
+  <section class="mainBox">
+    <div class="column">
+      <!-- 公共样式盒子 -->
+      <!-- <div class="panel">
+        <h2>图表内容</h2>
+        <div class="chart">
+
+        </div>
+        <div class="panel-footer"></div>
+      </div> -->
+      <div class="panel bar">
+        <h2>就业行业 &nbsp;
+          <a href="#">2021</a>
+          &nbsp;
+          <a href="#">2022</a>
+        </h2>
+        <div class="chart">
+          <!-- 柱状图 -->
+        </div>
+        <div class="panel-footer"></div>
+      </div>
+      <div class="panel line">
+        <h2>人员变化</h2>
+        <div class="chart">
+
+        </div>
+        <div class="panel-footer"></div>
+      </div>
+      <div class="panel pie">
+        <h2>年龄分布</h2>
+        <div class="chart">
+
+        </div>
+        <div class="panel-footer"></div>
+      </div>
+
+    </div>
+    <div class="column">
+      <!-- 数字模块 -->
+      <div class="no">
+        <div class="no-hd">
+          <ul>
+            <li>114514</li>
+            <li>102443</li>
+          </ul>
+        </div>
+        <div class="no-bd">
+          <ul>
+            <li>前端需求人数</li>
+            <li>市场供应人数</li>
+          </ul>
+        </div>
+      </div>
+      <!-- 地图模块 -->
+      <div class="map earth">
+        <div class="chart"></div>
+        <div class="map1"></div>
+        <div class="map2"></div>
+        <div class="map3"></div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="panel right1">
+        <h2>技能学习内容</h2>
+        <div class="chart">
+
+        </div>
+        <div class="panel-footer"></div>
+      </div>
+      <div class="panel right2">
+        <h2>雷达图</h2>
+        <div class="chart">
+
+        </div>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/flexible.js"></script>
+  <script src="./js/echarts.min.js"></script>
+  <script src="./js/china.js"></script>
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>
